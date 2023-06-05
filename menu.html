@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME-WEBSITE-DONAT</title>
+    <!-- swipper start -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- font  swipper end-->
+
+    <!-- Font awesome cdn link start-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Font awesome cdn link end -->
+
+    <!-- File link CSS start-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- File link CSS end-->
+  </head>
+
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">WOWNAT.DONUTS 🍰</a>
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+          <a href="search.html"><i class="fas fa-search"></i></a>
+          <a href="cart.html"
+            ><i class="fas fa-shopping-cart"></i><span>(3)</span>
+          </a>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <div class="edit">
+          <a href="http://localhost/wownats/CRUD/admin_menu.php"
+            ><i class="fas fa-edit"></i
+          ></a>
+        </div>
+
+        <div class="profile">
+          <p class="name">Eve</p>
+          <div class="flex">
+            <a href="profile.html" class="btn">Profile</a>
+            <a href="#" class="btn">Log out</a>
+          </div>
+          <p class="account">
+            <a href="login.html">Login</a> or
+            <a href="register.html">Register</a>
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- category star  -->
+
+    <section class="category">
+      <h1 class="title">Kategori varian donat</h1>
+
+      <div class="box-container">
+        <a href="category.html" class="box">
+          <img src="img-kategori/kategori -Tabur.JPG" alt="" />
+          <h3>Donat Tabur</h3>
+          <p>
+            Gula halus, Gula aren, Gula strawberry, gula melon, Gula anggur,
+            Gula jeruk, Gula mint, Gula lemon, Milo dan Dancow
+          </p>
+        </a>
+        <a href="category.html" class="box">
+          <img src="img-kategori/kategori-Doffle.jpeg" alt="" />
+          <h3>Donat Waffle</h3>
+          <p>
+            Coklat, Vanilla, Capucino, Tiramisu, Greentea, Taro, Strawberry,
+            Blueberry, Selai strawberry, dan Selai blueberry.
+          </p>
+        </a>
+
+        <a href="category.html" class="box">
+          <img src="img-kategori/kategori -Pedas Asin.jpg" alt="" />
+          <h3>Donat Pedas-Asin</h3>
+          <p>Ayam Suwir, Pizza, Abon</p>
+        </a>
+
+        <a href="category.html" class="box">
+          <img src="img-kategori/kategori -Bomboloni.jpeg" alt="" />
+          <h3>Donat Bomboloni</h3>
+          <p>
+            Coklat, Keju, Vanila, Selai strawberry, Selai blueberry, Durian,
+            Srikaya dan Pandan.
+          </p>
+        </a>
+        <a href="category.html" class="box">
+          <img src="img-kategori/kategori -Topping.JPG" alt="" />
+          <h3>Donat Topping</h3>
+          <p>
+            Coklat meses, Coklat kacang, Coklat keju, Choco cruncy, Ooreo,
+            Vanila, Red Velvet, Tiramisu, Greentea, Taro, Strawberry, Blueberry,
+            Banana, Alpukat, Caramel, dan Capucino.
+          </p>
+        </a>
+      </div>
+    </section>
+    <!-- category end -->
+    <!-- menu star -->
+
+    <section class="products">
+      <h1 class="title">Pilihan Paket yang kamu suka</h1>
+
+      <div class="box-container">
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Tabur.jpeg" alt="" />
+          <a href="category.html" class="cat">Donat Tabur</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>35.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Tabur-1.JPG" alt="" />
+          <a href="category.html" class="cat">Donat Tabur</a>
+          <div class="name">6 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>20.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Topping.jpeg" alt="" />
+          <a href="category.html" class="cat">Donat Topping</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>40.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Topping1.JPG" alt="" />
+          <a href="category.html" class="cat">Donat Topping</a>
+          <div class="name">6 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>20.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Topping mini.jpeg" alt="" />
+          <a href="category.html" class="cat">Donat Topping Mini</a>
+          <div class="name">24 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>40.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Pedas-Asin.jpeg" alt="" />
+          <a href="category.html" class="cat">Donat Asin</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>60.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Jabrik-keju.jpeg" alt="" />
+          <a href="category.html" class="cat">Bomboloni - Donat Jabrik Keju</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>35.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Bomboloni.jpeg" alt="" />
+          <a href="category.html" class="cat">Bomboloni - Donat Jabrik Keju</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>20.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+
+        <form accept="" method="post" class="box">
+          <a href="quick_view.html" class="fas fa-eye"></a>
+          <button
+            class="fas fa-shopping-cart"
+            type="submit"
+            name="add_to_cart"
+          ></button>
+          <img src="img-menu/Doffle-donat.jpeg" alt="" />
+          <a href="category.html" class="cat">Donat Waffle</a>
+          <div class="name">12 pcs</div>
+          <div class="flex">
+            <div class="price"><span>Rp</span>40.000<span>,-</span></div>
+            <input
+              type="number"
+              name="qty"
+              class="qty"
+              min="1"
+              max="99"
+              value="1"
+              onkeypress="if(this.value.length == 2) return false;"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- menu end -->
+
+    <!-- footer section star -->
+    <footer class="footer">
+      <section class="grid">
+        <div class="box">
+          <img src="img-footer/instagram-icon.png" alt="" />
+          <h3>Cek Sosial media kami di</h3>
+          <a href="https://instagram.com/wownat.donuts?igshid=MmJiY2I4NDBkZg=="
+            >@wownats.donut</a
+          >
+        </div>
+
+        <div class="box">
+          <img src="img-footer/map-icon.png" alt="" />
+          <h3>Temukan kami di</h3>
+          <h4>JL.Veteran Gang Mawar 2 No 21, Nagri Kaler, Purwakarta</h4>
+          <a href="https://goo.gl/maps/61vzMd8mmeY9kbSc6" class="btn">
+            disini</a
+          >
+        </div>
+        <div class="box">
+          <img src="img-footer/telepon-icon.png" alt="" />
+          <h3>Hubungi kami</h3>
+          <a href="https://wa.me/6283824553794">0838-2455-3794</a>
+        </div>
+      </section>
+      <div class="credit">
+        Creted by <span>Eidilla Sha-Eka Nov</span> |all rights reservesed!
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- File link JS start-->
+    <script src="js/script.js"></script>
+    <!-- File link JS end-->
+  </body>
+</html>

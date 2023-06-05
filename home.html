@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME-WEBSITE-DONAT</title>
+    <!-- swipper start -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- font  swipper end-->
+
+    <!-- Font awesome cdn link start-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Font awesome cdn link end -->
+
+    <!-- File link CSS start-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- File link CSS end-->
+  </head>
+
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">WOWNAT.DONUTS 🍰</a>
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+          <a href="search.html"><i class="fas fa-search"></i></a>
+          <a href="cart.html"
+            ><i class="fas fa-shopping-cart"></i><span>(3)</span>
+          </a>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <div class="profile">
+          <p class="name">Eve</p>
+          <div class="flex">
+            <a href="profile.html" class="btn">Profile</a>
+            <a href="#" class="btn">Log out</a>
+          </div>
+          <p class="account">
+            <a href="login.html">Login</a> or
+            <a href="register.html">Register</a>
+          </p>
+        </div>
+      </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- hero section star -->
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Welcome To WOWNATS.DONUTS
+                </span>
+              <h3>Bebas pilih varian yang kamu suka, And have a Sweet day!</h3>
+              <a href="menu.html" class="btn">slide>></a>
+            </div>
+            <div class="image">
+              <img src="img-hero/logo-wownats1.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>order online</span>
+              <h3>Donat Pedas-Asin</h3>
+              <a href="menu.html" class="btn">lihat </a>
+            </div>
+            <div class="image">
+              <img src="img-hero/roti abon.JPG" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>order online</span>
+              <h3>Donat Manis</h3>
+              <a href="menu.html" class="btn">lihat</a>
+            </div>
+            <div class="image">
+              <img src="img-hero/donat kacang almond.JPG" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>order online</span>
+              <h3>Donat Waffle</h3>
+              <a href="menu.html" class="btn">lihat </a>
+            </div>
+            <div class="image">
+              <img src="img-hero/doffle-donat.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    <!-- hero section end -->
+
+<!-- category star  -->
+
+<section class="category">
+  <h1 class="title">Kategori varian donat</h1>
+
+  <div class="box-container">
+    <a href="menu.html" class="box">
+      <img src="img-kategori/kategori -Topping.JPG" alt="" />
+      <h3>Donat Manis</h3>
+    </a>
+
+    <a href="menu.html" class="box">
+      <img src="img-kategori/kategori -Pedas Asin.JPG" alt="" />
+      <h3>Donat Pedas-Asin</h3>
+    </a>
+  </div>
+</section>
+<!-- category end -->
+
+    <!-- footer section star -->
+    <footer class="footer">
+      <section class="grid">
+        <div class="box">
+          <img src="img-footer/instagram-icon.png" alt="" />
+          <h3>Cek Sosial media kami di</h3>
+          <a href="https://instagram.com/wownat.donuts?igshid=MmJiY2I4NDBkZg==">@wownats.donut</a>
+        </div>
+        
+        <div class="box">
+          <img src="img-footer/map-icon.png" alt="" />
+          <h3>Temukan kami di</h3>
+          <h4> JL.Veteran Gang Mawar 2 No 21, Nagri Kaler, Purwakarta</h4>
+          <a href="https://goo.gl/maps/61vzMd8mmeY9kbSc6" class="btn">
+            disini</a
+          >
+        </div>
+        <div class="box">
+          <img src="img-footer/telepon-icon.png" alt="" />
+          <h3>Hubungi kami</h3>
+          <a href="https://wa.me/6283824553794">0838-2455-3794</a>
+        </div>
+        </section>
+        <div class="credit">
+          Creted by <span>Eidilla Sha-Eka Nov</span> |all rights reservesed!
+        </div>
+      </footer>
+    <!-- footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- File link JS start-->
+    <script src="script.js"></script>
+    <!-- File link JS end-->
+
+      <script>
+
+      var swiper = new Swiper(".home-slider", {
+         loop:true,
+         grabCursor:true,
+         effect: "flip",
+         pagination: {
+            el: ".swiper-pagination",
+            clickable:true,
+         },
+      });
+      
+      </script>
+  </body>
+</html>
